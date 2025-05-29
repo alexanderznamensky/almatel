@@ -1,0 +1,12 @@
+{
+  "domain": "almatel",
+  "name": "Almatel Balance",
+  "documentation": "https://github.com/alexanderznamensky/Almatel",
+  "issue_tracker": "https://github.com/alexanderznamensky/Almatel/issues",
+  "dependencies": [],
+  "codeowners": ["@alexanderznamensky"],
+  "requirements": ["selenium"],
+  "iot_class": "cloud_polling",
+  "version": "1.0.1",
+  "config_flow": true
+}

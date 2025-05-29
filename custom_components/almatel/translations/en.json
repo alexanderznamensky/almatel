@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Almatel Balance parsing Setup",
+        "description": "Please input User Name, Password and Update interval",
+        "data": {
+          "username": "User Name",
+          "password": "Password",
+          "update_interval": "Update interval, min"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update time, min",
+        "description": "Update time, min",
+        "data": {
+          "update_interval": "Update interval, min"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "almatel_balance_sensor": {
+        "name": "Almatel Balance",
+        "state_attributes": {
+          "due_date": {
+            "name": "Due Date"
+          },
+          "message": {
+            "name": "Message"
+          },
+          "days_left": {
+            "name": "Days left"
+          }
+        }
+      }
+    }
+  }
+}
