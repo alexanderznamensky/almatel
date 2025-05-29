@@ -1,2 +1,2 @@
-# almatel
+# Almatel
 Balance of Almatel ISP
